@@ -1,0 +1,116 @@
+/* 練習： 卡片製作 */
+body {
+  background-color: #eeeeee;
+  /* flatuicolors.com */
+  /* font-family: "Microsoft JhengHei"; */
+  font-family: "Microsoft YaHei";
+  /* google字形 */
+}
+
+.card {
+  background-color: #fff;
+  width: 450px;
+  height: 270px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+
+  /* margin: 0 auto; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* -------------------------------------------- */
+.top {
+  /* background-color: pink; */
+  color: #1d7faa;
+  width: 410px;
+  /* height: 200px; */
+  margin-left: 20px;
+  margin-top: 35px;
+}
+
+.top p {
+  font-size: 20px;
+  /* border: 2px solid #1d7faa; */
+  border-bottom: 2px solid #1d7faa;
+}
+
+/* ----------------------------------------------- */
+
+.mid {
+  /* background-color: pink; */
+  width: 410px;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.name,
+.contact {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+.name {
+  margin-top: 35px;
+  background-color: #fff;
+}
+
+.name p {
+  /* background-color: yellow; */
+  margin: 0;
+  font-weight: bold;
+}
+
+/* -------------------------------------------- */
+.chinese {
+  /* border: 1px dashed black; */
+  font-size: 18px;
+}
+
+.chinese span {
+  font-size: 12px;
+}
+
+.eng {
+  /* border: 1px dashed black; */
+  font-size: 10px;
+}
+
+/* ----------------------------------------------- */
+
+.contact {
+  /* border: 1px dashed black; */
+  margin-top: 5px;
+  margin-left: 50px;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.contact p {
+  /* border: 1px dashed black; */
+  margin-bottom: 0;
+}
+
+/* ----------------------------------------------- */
+
+.bot {
+  background-color: #1d7faa;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 0px;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  padding: 10px;
+}
+
+.bot p {
+  /* border: 1px dashed black; */
+  font-size: 15px;
+  margin: 0 0 0 2px;
+  padding-top: 5px;
+}
